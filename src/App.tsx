@@ -36,7 +36,7 @@ function App() {
             <div className='flex flex-row relative md:p-10 lg:px-0 flex-nowrap'>
               <img src="image-3.png" alt="" className='w-[25rem] md:w-[19rem] md:h-[24rem]  mx-auto z-[10] object-cover' />
               <div className='hidden md:block absolute  bottom-[-10%] left-[-20%]'>
-                <img src="vector-2.png" alt="" className='h-[30rem] w-[30rem] object-cover' />
+                <img src="vector-2.png" alt="" className='h-[25rem] w-[25rem] object-cover' />
               </div>
             </div>
           </div>
@@ -47,9 +47,9 @@ function App() {
             </div>
           </div>
           <div className='hidden md:block md:w-[40%] mt-[13rem] lg:px-[10rem] relative'>
-            <div className='relative w-full h-full'>
+            <div className='flex flex-row relative w-full h-full'>
               <img src="image-4.png" alt="" className='h-[32rem] w-full lg:h-[32rem] lg:w-[25rem]  mx-auto z-[10] object-cover' />
-              <div className=' absolute md:bottom-[-10%] md:left-[-80%] lg:bottom-[10%] lg:left-[-100%]'>
+              <div className='absolute md:bottom-[-10%] md:left-[-80%] lg:bottom-[10%] lg:left-[-100%]'>
                 <img src="vector-3.png" alt="" className='h-[20rem] w-[30rem] ' />
               </div>
             </div>
@@ -57,7 +57,30 @@ function App() {
 
         </div>
       </section>
-      <section className='bg-[#C5CEBD] h-[100vh] w-full'>
+      <section className='bg-[#C5CEBD] h-[1065px] w-full'>
+        <div className='flex flex-col md:flex-row '>
+          <div className='flex flex-row w-[60%] relative mt-[10rem]'>
+            <img src="image-5.png" alt="" className='w-[33rem] h-[44rem] object-cover z-[10]' />
+            <p className='text-6xl absolute top-[20%] right-[28%] w-[24rem] text-white z-[20]'>
+              We love what we do. We are up to the task.
+            </p>
+            <p className='absolute top-[60%] right-[2%] w-[24rem] text-black'>
+              Cuts tailor made for your hair, making it easy for you to recreate your look every day. Debonaire team, makes you feel happy at ease and work with you to make you your most lovely.
+            </p>
+            <div className='absolute bottom-[-10%] left-[36%] z-[0]'>
+              <img src="abstract-3.png" alt="" className='h-[17rem] w-[16rem]' />
+            </div>
+          </div>
+          <div className='flex flex-row w-[40%] mt-[20rem] relative '>
+            <img src="vector-4.png" alt="" className='w-[400px] h-[600px]' />
+            <div className='absolute right-[10%]'>
+              <img src="image-6.png" alt="" className='h-[400px] w-[400px] rounded-full' />
+            </div>
+            <div className='absolute bottom-[-20%]'>
+              <img src="image-7.png" alt="" className='h-[400px] w-[340px]' />
+            </div>
+          </div>
+        </div>
 
       </section>
     </React.Fragment >
@@ -65,4 +88,3 @@ function App() {
 }
 
 export default App;
-
