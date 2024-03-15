@@ -76,12 +76,11 @@ const Navbar = () => {
                     {/* <img src='/logo.png' alt="logo" className="w-[70px] h-[50px] md:w-[100px] md:h-[70px]" /> */}
                     <p className="text-bold text-3xl">Maya Brows</p>
                 </a>
-                <div className="flex flex-row gap-3 md:gap-5">
-                    <div className="lg:flexCenter">
+                <div className="flex justify-between flex-row gap-3 md:gap-5">
+                    <div className="hidden md:block lg:flexCenter">
                         {/* <Button type="button" title="Book now" variant="btn_transparent" /> */}
                         Book an appotinment
                     </div>
-                    <p className="text-sm text-grey-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold inline-block lg:hidden">+1 234 567 890</p>
                     <MdOutlineMenu className="w-[32px] h-[32px] cursor-pointer lg:hidden" onClick={handleShowMenu} />
                 </div>
                 {showMenu ? (
