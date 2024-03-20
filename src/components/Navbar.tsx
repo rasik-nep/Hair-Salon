@@ -78,8 +78,10 @@ const Navbar = () => {
                 </a>
                 <div className="flex justify-between flex-row gap-3 md:gap-5">
                     <div className="hidden md:block lg:flexCenter">
-                        {/* <Button type="button" title="Book now" variant="btn_transparent" /> */}
-                        Book an appotinment
+                        <p className="text-base relative">
+                            Book an appointment
+                            <span className="absolute bottom-0 left-0 right-0 h-1 bg-red-400"></span>
+                        </p>
                     </div>
                     <MdOutlineMenu className="w-[32px] h-[32px] cursor-pointer lg:hidden" onClick={handleShowMenu} />
                 </div>
