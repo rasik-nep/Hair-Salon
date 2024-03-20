@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import WeLove from './components/WeLove';
 import Services from './components/Services';
 import Appoitment from './components/Appoitment';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <WeLove />
       <Services />
       <Appoitment />
+      <Footer />
     </React.Fragment >
   )
 }
