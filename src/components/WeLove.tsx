@@ -3,8 +3,8 @@ export default function WeLove() {
         <section className='bg-[#C5CEBD] lg:h-[1065px] w-full'>
             <div className='flex flex-col lg:flex-row '>
                 <div className='flex flex-row lg:w-[60%] relative md:mt-[10rem]'>
-                    <img src="image-5.png" alt="" className='w-full md:w-[33rem] h-[40rem] object-cover z-[10]' />
-                    <p className='text-4xl md:text-6xl absolute lg:top-[20%] lg:right-[28%] w-[24rem] text-white z-[20]'>
+                    <img src="image-5.png" alt="" className='w-full md:w-[28rem] lg:w-[33rem] h-[40rem] object-cover z-[10]' />
+                    <p className='text-4xl md:text-6xl absolute lg:top-[20%] lg:right-[28%] md:w-[24rem] text-white z-[20]'>
                         We love what we do. We are up to the task.
                     </p>
                     <p className='absolute top-[60%] right-[2%] w-[24rem] text-black'>
