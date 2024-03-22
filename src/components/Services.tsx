@@ -1,6 +1,6 @@
 export default function Services() {
     return (
-        <section className='bg-[#DFCCC2] md:h-[130vh]'>
+        <section className='bg-[#DFCCC2] md:h-[80vh] lg:h-[130vh]'>
             <p className='text-4xl text-center text-white p-10'>Our Services</p>
             <div className='flex flex-col md:flex-row lg:gap-5 lg:w-[70%] justify-center mx-auto'>
                 <div className='w-[20%] lg:w-[30%]'>
